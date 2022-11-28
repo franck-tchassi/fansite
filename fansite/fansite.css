@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "poppins";
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    max-width: 1920px;
+    
+}
+.bloc{
+    background-image: url('image/thumb-1920-990011.jpg');
+}
+.sous-bloc ul a{
+    padding: 20px;
+    color: white;
+}
+.sous-bloc{
+    display: flex;
+    justify-content: center;
+}
+.sous-bloc ul{
+    display: flex;
+    align-items: center;
+    
+}
+.sous-bloc a img{
+    width: 70px;
+}
+
+
+
+.bloc-1{
+    background-image: url('image/alev-lion-banner.jpg');
+    height: 250px;
+}
+.sous-bloc-1 ul{
+    display: flex;
+    align-items: center;
+    background-color:;
+    height: 50px;
+    
+
+}
+.sous-bloc-1 ul li, a, i{
+    padding: 3px;
+    
+
+}
+.title-1{
+
+    text-align: center;
+    margin-top: 100px ;
+}
+.title-2{
+    text-align: center;
+    margin-top: 10px ;
+}
+
+
+
+.bloc-2 .sous-bloc-2 .sous-bloc-2-img img{
+    height: 200px;
+}
+.sous-bloc-3-h2, .sous-bloc-4-h2{
+    color: red;
+} 
+.bloc-2 .sous-bloc-2{
+    display: flex;
+    background-color: #f8f9fa;
+    align-items: center;
+    padding-left: 70px;
+    width: 75%;
+    position: relative;
+    left: 8%;
+    bottom: -20%;
+    box-shadow: 1px 10px 10px 10px ;
+}
+.bloc-2{
+    background-color:#e9ecef;
+    height: 300px;
+}
+.bloc-2 .sous-bloc-2 .sous-bloc-3{
+    padding-left: 50px;
+}
+.bloc-2 .sous-bloc-2 .sous-bloc-4{
+    padding-left: 50px;
+}
+.sous-bloc-4 .sous-bloc-4-lien ul li {
+
+}
+
+
+
+.bloc-3{
+    display: flex;
+    align-items: center;
+    background-image: url('image/UYO_Stadium1_web.jpg');
+}
+.sous-bloc-5-img img{
+    height: 550px;
+}
+.sous-bloc-5-img{
+    position: relative;
+    left: 15%;
+}
+.sous-bloc-6{
+    margin-left: 35%;
+}
+.sous-bloc-6-p p{
+    font-size: 35px;
+    color: white;
+}
+.sous-bloc-6-img .sous-bloc-6-img2 img{
+    position: relative;
+    left: 10px;
+    height: 50px;
+}
+.sous-bloc-6-img{
+    display: flex;
+    position: relative;
+    bottom: -50px;
+}
+
+
+
+
+
+
+
+
+.bloc-4{
+    background-color: black;
+    
+}
+.bloc-4 .sous-bloc-7a div{
+    display: block;
+    flex-direction: row;
+    text-align: center;
+}
+.bloc-4 .sous-bloc-7b div{
+    display: block;
+    flex-direction: row;
+    text-align: center;
+}
+.bloc-4 .sous-bloc-7c div{
+    display: block;
+    flex-direction: row;
+    text-align: center;
+}
+.sous-bloc-7-title{
+    color: white;
+}
+.sous-bloc-7-lien1 img{
+    
+}
+
+
+
+
+
+
+
+.bloc-5{
+    background-color:  #082b5f;
+}
+.sous-bloc-8-h2  {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.sous-bloc-8  ul {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+
+}
+.sous-bloc-8-lien  {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 200px;
+
+    
+}
+.sous-bloc-8-lien h3{
+    color: white;
+
+}
+.sous-bloc-8 ul a i{
+    color: #b7c5d3 ;
+}
+.sous-bloc-8-lien div ul li a {
+    color: #b7c5d3;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bloc-6{
+    background-color: #082b5f;
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+}
+
+
+
+
+
+/* **************************************page d'actualité************************************** */
+
+.container .item .item-img1{
+    width: 450px;
+    
+}
+.item img{
+    width: 450px;
+}
+section.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+section.container .item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1px 12px rgb(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+  }
+  header h2{
+    text-align: center;
+  }
+  .item h3{
+    color: #082b5f;
+  }
+
+
+
+/* **************************************page des photos************************************** */
+
+.item-photo1{
+    background-image: url('image/small_LBD_3252_9287067cad.jpg');
+    height: 290px;
+
+}
+.item-photo2{
+    background-image: url('image/small_DLG_7495_83919fb9aa.jpg');
+    height: 290px;
+
+}
+.item-photo3{
+    background-image: url('image/small_LBD_2850_21ea3c1cb5.jpg');
+    height: 290px;
+
+}
+.item-photo4{
+    background-image: url('image/small_DLG_4549_2_4d3a42a246.jpg');
+    height: 290px;
+
+}
+.item-photo5{
+    background-image: url('image/small_LBD_9949_1905b07cd3.jpg');
+    height: 290px;
+
+}
+.item-photo6{
+    background-image: url('image/small_LBD_8831_600ddf4d32.jpg');
+    height: 290px;
+
+}
+.item-photo7{
+    background-image: url('image/small_DLG_2042_4497cc217e.jpg');
+    height: 290px;
+
+}
+.item-photo8{
+    background-image: url('image/small_DLG_0886_794c4262be.jpg');
+    height: 290px;
+
+}
+.item-photo9{
+    background-image: url('image/small_LBD_2862_e887fe61a6.jpg');
+    height: 290px;
+
+}
+.container #item-photo{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1px 12px rgb(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+}
